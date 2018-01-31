@@ -1,0 +1,38 @@
+uuid: 664e3b1b-b24b-49e4-b206-6feec8c7fa43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_img
+    - node.type.t_content
+  module:
+    - image
+id: node.t_content.field_test_img
+field_name: field_test_img
+entity_type: node
+bundle: t_content
+label: test_img
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

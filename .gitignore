@@ -12,7 +12,8 @@
 # core
 
 # Core's dependencies are managed with Composer.
-vendor
+# Commented by Dev CSP.
+# vendor
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
@@ -20,7 +21,6 @@ sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
 sites/*/files
-!sites/*/files/config_Kh5mQW-g1RGDXKPlrX4QXFsbq_Gg8-O-okKUh3v8mfLbNDgquQ8r_79e2VAqOpCCccmcBbhImQ/sync
 sites/*/private
 
 # Ignore SimpleTest multi-site environment.

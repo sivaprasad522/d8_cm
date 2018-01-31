@@ -1,0 +1,37 @@
+uuid: ae03b252-34f2-45a7-8694-0113439a6640
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.t_content.body
+    - field.field.node.t_content.field_test_img
+    - node.type.t_content
+  module:
+    - image
+    - text
+    - user
+id: node.t_content.default
+targetEntityType: node
+bundle: t_content
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_test_img:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
