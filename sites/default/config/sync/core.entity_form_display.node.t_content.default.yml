@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.t_content.body
+    - field.field.node.t_content.field_number
     - field.field.node.t_content.field_test_img
     - image.style.thumbnail
     - node.type.t_content
@@ -31,6 +32,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_number:
+    weight: 123
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   field_test_img:
     weight: 122
     settings:

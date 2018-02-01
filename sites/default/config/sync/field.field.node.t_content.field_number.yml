@@ -1,0 +1,23 @@
+uuid: 9dbd48cd-dfda-4dd9-b190-a9b121ba2e66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.t_content
+id: node.t_content.field_number
+field_name: field_number
+entity_type: node
+bundle: t_content
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

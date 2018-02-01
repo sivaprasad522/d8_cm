@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.t_content.body
+    - field.field.node.t_content.field_number
     - field.field.node.t_content.field_test_img
     - node.type.t_content
   module:
@@ -21,6 +22,17 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_number:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
     region: content
   field_test_img:
     weight: 102
